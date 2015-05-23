@@ -47,4 +47,26 @@ Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angula
 
   /* float, clear, vertical-align does not work on flex item, but it does work on flex container. */
 }
+
 ```
+### Centering single content
+```css
+.row {
+  display: flex;
+  height: 50vw; /* if specified, content will be centered vertically  */
+}
+
+.col {
+  flex: 0 0 20vw;
+  margin: auto;
+}
+```
+
+
+
+
+
+
+
+
+
