@@ -42,7 +42,7 @@ Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angula
   flex-shrink: 1;
   flex-basis: auto | <length>
   /* shorthand (use short)*/
-  flex: @flex-grow @flex-shrink @flex-basis;
+  flex: @flex-grow @flex-shrink @flex-basis;  /* default none */ 
 
   align-self: flex-start | flex-end | center | space-between | space-around;
 
