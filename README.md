@@ -13,7 +13,8 @@ Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angula
 ## CSS
 [Flexbox Examples](#flexbox-examples)
 
-#Flexbox Examples
+#Flexbox
+## Properties 
 ```css
 .row {
   display: flex;
@@ -49,7 +50,8 @@ Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angula
 }
 
 ```
-### Centering single content
+## Centering single content
+### Method 1
 ```css
 .row {
   display: flex;
@@ -58,9 +60,34 @@ Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angula
 
 .col {
   flex: 0 0 20vw;
+  height: 20vw;
+  line-hieght: 20vw;
+  text-align: center;
   margin: auto;
 }
 ```
+
+### Method 2
+```css
+.row {
+  display: flex;
+  height: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+.col {
+  flex: 0 0 20vw
+  height: 20vw;
+  line-hieght: 20vw;
+  text-align: center;
+  /* no margin auto */
+}
+```
+
+
+Q: would .rowOuter>.rowInner>.col work?
+i.e. .rowInner both display: flex, and flex: 0 0 90vw;
+
 
 
 
