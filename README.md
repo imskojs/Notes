@@ -102,7 +102,7 @@ i.e. .rowInner both display: flex, and flex: 0 0 90vw;
 
 --------------------------------------------------------------------
 # Angular 1.x
-## $q promise
+## $q promises
 ```js
 // Style 1
 $q.fcall(function(){ ... })
@@ -264,10 +264,13 @@ $q.fcall(foo.bind(null, arg1))
   }
 })
 ```
-If don't care which `.then` throw an error than use one `.catch` style at the end.
+If don't care which `.then` throws an error then use one `.catch` style at the end.
 
 `.done()` makes sure that the error will be handled if `.then` before it didn't handle errors. It will explicitly re-throw it rather than passing the error object.
 
+[Back to TOC](#toc)
+
+---------------------------------------------------------------------
 
 ## Digression / Ideas
 
