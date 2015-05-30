@@ -268,6 +268,44 @@ If don't care which `.then` throws an error then use one `.catch` style at the e
 
 `.done()` makes sure that the error will be handled if `.then` before it didn't handle errors. It will explicitly re-throw it rather than passing the error object.
 
+## $emit, $broadcast
+When we talk about $rootScope.$emit, this only lets other $rootScope listeners to catch it. Good to use when we don't want every $scope to get it. Generally a high level communication between each other, like some top level management talking to each other in cabin so the other employee can't hear them.
+ When we talk about $rootScope.$broadcast, this is a method that lets pretty much everything hear it. This would be the equivalent of teacher yelling that open your notebook so everyone in the classroom hears it.
+When we talk about $scope.$emit, this is when you want that $scope and all its parents and $rootScope to hear the event. This is a child whining to their mother at home (but not in market where other kids can hear).
+When we talk about $scope.$broadcast, this is for the $scope itself and its children. This is a child whispering to its stuffed animals so their parents can't hear.
+
+So now we understood these functionality now discuss important point which create issues when we use these functionality.
+
+ 1. $rootScope live forever in application scope so if our controller is run multiple time then all $rootScope.$on inside  it will run all time whenever controller called and caught events will result in callback invoked multiple times. If we use $scope.$on instead of $rootscope.$on, the callback will be surly destroyed along with our controller implicitly by AngularJS application. This is a common cause of bugs in an AngularJS application.
+
+
+2. If we must need to use $rootscope.$on in our application, in that case we need to manually destroy that on controller  destroy event.
+
+
+sample code: 
+
+var cleanListeneEvents = $rootScope.$on('someEvent', function(event, paramValue) { console.log(paramValue); });
+
+$scope.$on('$destroy', function() {
+
+//this will deregister that listener
+  cleanListeneEvents();
+});
+
+3. Always prefer $rootScope.$emit() instead of $rootScope.$broadcast(). Because whenever we  broadcast on rootScope, event is bubled down to every scope currently existing. That can be make slow our application. It's not necessary to do that, if  our listeners are hooked to rootScope.
+
+
+4. In rare case we should use these events, instead of this we can use service and inject with controller/ directive to communicate with each other. If we need to communicate changes all over our application use a service to maintain the values and load the values when the various views are active.
+
+5. If we know that there is only one listener, and we have already encountered it, we can stop further propagation of the event by calling event.stopPropagation() on the event object passed to the event listener function.
+
+6. The worst part is that an event based approach can get really messy to track, maintain and debug. It makes it very asynchronous, with no real easy way to track the flow of an application 
+
+7. If we talk about performance, then $emit() is faster than $broadcast().
+
+- See more at: http://firstcrazydeveloper.com/Blogs/BlogView.html/50/events-in-angularjs-emit-broadcast-and-on#sthash.5kmBo9kw.dpuf
+
+
 [Back to TOC](#toc)
 
 ---------------------------------------------------------------------
