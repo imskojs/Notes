@@ -2,13 +2,10 @@
 Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angular 2.0, postCSS, ECMA2015, and maybe TypeScript.  
 Only Modern browsers are considered. Fuck IE10-.
 
-TODO:
-1. $q
-2. waterline
-3. custom $http using $q and waterline syntax to query data from client, high abstraction to by pass thinking of query made from server.
-3. SASS
-4. Ionic custom sass
-5. dig Ionic / Angular
+TODO:  
+2. dig Ionic /Angular  
+3. SASS  
+4. Ionic custom sass  
 
 #TOC
 ## CSS
@@ -102,6 +99,17 @@ i.e. .rowInner both display: flex, and flex: 0 0 90vw;
 
 --------------------------------------------------------------------
 # Angular 1.x
+## Using directives for dom manipulation
+MUST use directive if you manipulate(get, set or both) a DOM more than once.
+Don't need to use directive if you manipulate a dom element only once, just use controller.
+Custom directives's link function load before methods inside $ionView.beforeEnter. Only way for custom directive to load after the methods in controller has called is to not use $ionView.<whatever>. Of course, if all else fails use $timeout(...,0) in link function, but that can cause problems later when additional things has to be done.  
+When controller is defined in ui-router, in config, directives do not get the same $scope, it inherits, i.e. scope.$parent == $scope, where scope is directive linkFn scope, and $scope is Ctrl that was defined in ui-router scope.
+
+
+
+
+
+
 ## $q promises
 ```js
 // Style 1
