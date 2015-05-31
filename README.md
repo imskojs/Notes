@@ -321,6 +321,6 @@ $scope.$on('$destroy', function() {
 ## Digression / Ideas
 
 Wouldn't it be nice to have a db querying capability from client side?
-eg) `Posts.findOne({attr1: "content1"})` do http request, upon receiving the request from server it runs the exact command.
+eg) `Posts.findOne({attr1: "content1"})` do http request, upon receiving the request from server it runs the exact command.    edit: turns out this is how sql injector attack happen.
 
 당신이 사람이 아니라는것을 증명해보세요.
