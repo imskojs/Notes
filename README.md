@@ -12,7 +12,9 @@ TODO:
 [Flexbox Examples](#flexbox)
 ## Angular 1.x
 [$q promises](#q-promises)
-[$emit, $broadcast](#emit,-broadcast)
+
+[$emit, $broadcast](#emit-broadcast-1)
+
 --------------------------------------------------------------------
 #CSS
 ##Flexbox
