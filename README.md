@@ -13,7 +13,7 @@ TODO:
 ## Angular 1.x
 [$q promises](#q-promises)
 
-[$emit, $broadcast](#emit-broadcast-1)
+[$emit, $broadcast](#emit-broadcast)
 
 --------------------------------------------------------------------
 #CSS
