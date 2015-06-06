@@ -12,7 +12,7 @@ TODO:
 [Flexbox Examples](#flexbox)
 ## Angular 1.x
 [$q promises](#$q-promises)
- [$emit, $broadcast](#$emit,-$broadcast)
+[$emit, $broadcast](#$emit-$broadcast)
 --------------------------------------------------------------------
 #CSS
 ##Flexbox
@@ -110,7 +110,7 @@ When controller is defined in ui-router, in config, directives do not get the sa
 
 
 
-## $q promises
+##$q promises
 ```js
 // Style 1
 $q.fcall(function(){ ... })
@@ -276,7 +276,7 @@ If don't care which `.then` throws an error then use one `.catch` style at the e
 
 `.done()` makes sure that the error will be handled if `.then` before it didn't handle errors. It will explicitly re-throw it rather than passing the error object.
 
-## $emit, $broadcast
+##$emit, $broadcast
 When we talk about $rootScope.$emit, this only lets other $rootScope listeners to catch it. Good to use when we don't want every $scope to get it. Generally a high level communication between each other, like some top level management talking to each other in cabin so the other employee can't hear them.
  When we talk about $rootScope.$broadcast, this is a method that lets pretty much everything hear it. This would be the equivalent of teacher yelling that open your notebook so everyone in the classroom hears it.
 When we talk about $scope.$emit, this is when you want that $scope and all its parents and $rootScope to hear the event. This is a child whining to their mother at home (but not in market where other kids can hear).
