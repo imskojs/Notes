@@ -5,15 +5,17 @@ Only Modern browsers are considered. Fuck IE10-.
 TODO:  
 2. dig Ionic /Angular  
 3. SASS  
-4. Ionic custom sass  
+4. Ionic custom sass
+5. angular animate
+6. sails.js
 
 #TOC
 ## CSS
 [Flexbox Examples](#flexbox)
 ## Angular 1.x
-[$q promises](#q-promises)
-
-[$emit, $broadcast](#emit-broadcast)
+[$q promises](#q-promises)  
+[$emit, $broadcast](#emit-broadcast)  
+[why not just use link not controller in a directive?](#why-not-just-use-link-not-controller-in-a-directive)
 
 --------------------------------------------------------------------
 #CSS
@@ -316,6 +318,8 @@ $scope.$on('$destroy', function() {
 - See more at: http://firstcrazydeveloper.com/Blogs/BlogView.html/50/events-in-angularjs-emit-broadcast-and-on#sthash.5kmBo9kw.dpuf
 
 
+##why-not-just-use-link-not-controller-in-a-directive
+[Link to explanation](http://stackoverflow.com/questions/20018507/angularjs-what-is-the-need-of-the-directives-link-function-when-we-already-had)
 [Back to TOC](#toc)
 
 ---------------------------------------------------------------------
