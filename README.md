@@ -318,8 +318,12 @@ $scope.$on('$destroy', function() {
 - See more at: http://firstcrazydeveloper.com/Blogs/BlogView.html/50/events-in-angularjs-emit-broadcast-and-on#sthash.5kmBo9kw.dpuf
 
 
-##why-not-just-use-link-not-controller-in-a-directive
-[Link to explanation](http://stackoverflow.com/questions/20018507/angularjs-what-is-the-need-of-the-directives-link-function-when-we-already-had)
+##why not just use link not controller in a directive?
+[Link to explanation](http://stackoverflow.com/questions/20018507/angularjs-what-is-the-need-of-the-directives-link-function-when-we-already-had)  
+
+
+
+
 [Back to TOC](#toc)
 
 ---------------------------------------------------------------------
