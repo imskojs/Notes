@@ -319,7 +319,7 @@ $scope.$on('$destroy', function() {
 
 
 ##why not just use link not controller in a directive?
-[Link to explanation](http://stackoverflow.com/questions/20018507/angularjs-what-is-the-need-of-the-directives-link-function-when-we-already-had){:target="_blank"}  
+<a href="http://stackoverflow.com/questions/20018507/angularjs-what-is-the-need-of-the-directives-link-function-when-we-already-had" target="_blank">Link to explanation</a>
 
 
 
