@@ -5,13 +5,17 @@ Only Modern browsers are considered. Fuck IE10-.
 TODO:  
 2. dig Ionic /Angular  
 3. SASS  
-4. Ionic custom sass
-5. angular animate
-6. sails.js
+4. Ionic custom sass  
+5. angular animate  
+6. sails.js  
 
 #TOC
 ## CSS
 [Flexbox Examples](#flexbox)
+
+## Ionic
+[]
+
 ## Angular 1.x
 [$q promises](#q-promises)  
 [$emit, $broadcast](#emit-broadcast)  
