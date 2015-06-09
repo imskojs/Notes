@@ -14,7 +14,7 @@ TODO:
 [Flexbox Examples](#flexbox)
 
 ## Ionic
-[]
+[Unlisted device](#unlisted-device)
 
 ## Angular 1.x
 [$q promises](#q-promises)  
@@ -104,6 +104,9 @@ i.e. .rowInner both display: flex, and flex: 0 0 90vw;
 
 
 [Back to TOC](#toc)
+--------------------------------------------------------------------
+# Unlisted device
+Go to the Settings -> Applications -> Development of your device and uncheck the USB debugging mode and then check it again back
 
 --------------------------------------------------------------------
 # Angular 1.x
