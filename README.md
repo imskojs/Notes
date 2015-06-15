@@ -3,7 +3,7 @@ Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angula
 Only Modern browsers are considered. Fuck IE10-.
 
 TODO:  
--1. how to <video> from local www/ folder in android
+-1. style video and add functions using on drag event
 0. corodva/phonegap plugins  
 1. Angular permissions  
 2. angular formly  
