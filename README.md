@@ -3,13 +3,10 @@ Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angula
 Only Modern browsers are considered. Fuck IE10-.
 
 TODO:  
--1. style video and add functions using on drag event
+0. Auth
 0. corodva/phonegap plugins  
-1. Angular permissions  
 2. angular formly  
 2. dig Ionic /Angular  
-3. SASS  
-4. Ionic custom sass  
 5. angular animate  
 6. sails.js  
 
