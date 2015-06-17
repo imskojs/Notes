@@ -4,10 +4,10 @@ Only Modern browsers are considered. Fuck IE10-.
 
 TODO:  
 0. Auth
-0. corodva/phonegap plugins  
+0. corodva/phonegap plugins
+0. Localnotification
 2. angular formly  
 2. dig Ionic /Angular  
-5. angular animate  
 6. sails.js  
 
 #TOC
