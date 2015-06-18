@@ -38,6 +38,16 @@ TODO:
 --------------------------------------------------------------------
 #CSS
 ##Flexbox
+
+## Flexbox Hybrid Quirks
+* Do not use float with flexbox  
+* Use flexbox as a container, if you wanna do position: absolute or such, the item has to be inside flex-item rather than flex box.
+* Do not give flex-box a height, instead let the content set the box's height.  
+
+
+
+
+
 ### Properties 
 ```css
 .row {
@@ -112,10 +122,6 @@ TODO:
 Q: would .rowOuter>.rowInner>.col work?  [v]
 i.e. .rowInner both display: flex, and flex: 0 0 90vw; yes
 
-
-## Flexbox Hybrid Quirks
-* Do not use float with flexbox  
-* Use flexbox as a container, if you wanna do position: absolute or such, the item has to be inside flex-item rather than flex box.
 
 
 
