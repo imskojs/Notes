@@ -13,6 +13,7 @@ TODO:
 #TOC
 ## CSS
 [Flexbox Examples](#flexbox)
+[Flexbox/Hybrid quirks] (#flexbox-hybrid-quirks)
 
 ## Ionic
 [Unlisted device](#unlisted-device)
@@ -96,9 +97,12 @@ TODO:
 ```
 
 
-Q: would .rowOuter>.rowInner>.col work?  
-i.e. .rowInner both display: flex, and flex: 0 0 90vw;
+Q: would .rowOuter>.rowInner>.col work?  [v]
+i.e. .rowInner both display: flex, and flex: 0 0 90vw; yes
 
+
+## Flexbox Hybrid Quirks
+* Do not use float with flexbox
 
 
 
