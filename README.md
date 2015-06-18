@@ -1,14 +1,26 @@
 # Notes (Opinionated)
 Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angular 2.0, postCSS, ECMA2015, and maybe TypeScript.  
-Only Modern browsers are considered. Fuck IE10-,... Fuck all IE.
+Only Modern browsers are considered. Fuck IE10-,... Fuck all IE11-.
 
 TODO:  
-0. Auth
-0. corodva/phonegap plugins
-0. Localnotification
-2. angular formly  
-2. dig Ionic /Angular  
-6. sails.js  
+* corodva/phonegap plugins  
+  * Local notification
+  * Oauth
+  * Kakao Oauth (custom)
+* angular formly  
+* waterline
+* sails.js  
+* firebase  
+  * DB
+  * Oauth
+  * KaKao Oauth(custom)  
+* Angular in depth (theory)
+* memorize Ionic components/doc
+* memorize Angular 2.0 components/doc
+* ES6
+* Webstorm
+* TypeScript
+* Cross-walk doc
 
 #TOC
 ## CSS
