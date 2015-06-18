@@ -12,7 +12,7 @@ TODO:
 
 #TOC
 ## CSS
-[Flexbox Examples](#flexbox)
+[Flexbox Examples](#flexbox)  
 [Flexbox/Hybrid quirks] (#flexbox-hybrid-quirks)
 
 ## Ionic
@@ -102,8 +102,8 @@ i.e. .rowInner both display: flex, and flex: 0 0 90vw; yes
 
 
 ## Flexbox Hybrid Quirks
-* Do not use float with flexbox
-
+* Do not use float with flexbox  
+* Use flexbox as a container, if you wanna do position: absolute or such, the item has to be inside flex-item rather than flex box.
 
 
 
