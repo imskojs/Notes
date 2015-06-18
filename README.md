@@ -1,6 +1,6 @@
 # Notes (Opinionated)
 Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angular 2.0, postCSS, ECMA2015, and maybe TypeScript.  
-Only Modern browsers are considered. Fuck IE10-.
+Only Modern browsers are considered. Fuck IE10-,... Fuck all IE.
 
 TODO:  
 0. Auth
