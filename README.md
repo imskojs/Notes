@@ -21,6 +21,7 @@ TODO:
 * Webstorm
 * TypeScript
 * Cross-walk doc
+* Meteor Ionic
 
 #TOC
 ## CSS
@@ -28,7 +29,7 @@ TODO:
 [Flexbox/Hybrid quirks] (#flexbox-hybrid-quirks)
 
 ## Ionic
-[Unlisted device](#unlisted-device)
+[Unlisted device](#unlisted-device)  
 [How to sign already sigend .apk file] (#sign-already-signed-apk)
 
 ## Angular 1.x
