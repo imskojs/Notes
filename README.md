@@ -29,6 +29,7 @@ TODO:
 
 ## Ionic
 [Unlisted device](#unlisted-device)
+[How to sign already sigend .apk file] (#sign-already-signed-apk)
 
 ## Angular 1.x
 [$q promises](#q-promises)  
@@ -131,6 +132,22 @@ i.e. .rowInner both display: flex, and flex: 0 0 90vw; yes
 # Unlisted device
 Go to the Settings -> Applications -> Development of your device and uncheck the USB debugging mode and then check it again back
 
+# sign-already-signed-apk
+```
+// delete sign
+zip -d infile.apk META-INF/\*
+
+// generate keystore
+keytool -genkey -v -keystore your.keystore -alias your_app -keyalg RSA -keysize 2048 -validity 10000
+
+// sign
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore your_app.keystore your.apk your_app
+
+//zip align
+zipalign -f -v 4 infile.apk outfile.apk
+
+// upload outfile.apk
+```
 --------------------------------------------------------------------
 # Angular 1.x
 ## Using directives for dom manipulation
