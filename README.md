@@ -3,6 +3,7 @@ Mastering Modern Mobile Front-End: Ionic, Angular, CSS3/SCSS, HTML5, ..., Angula
 Only Modern browsers are considered. Fuck IE10-,... Fuck all IE11-.
 
 TODO:  
+* Flexbox vertical flow
 * corodva/phonegap plugins  
   * Local notification
   * Oauth
