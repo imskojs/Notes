@@ -44,7 +44,7 @@ TODO:
 * Do not use float with flexbox  
 * Use flexbox as a container, if you wanna do position: absolute or such, the item has to be inside flex-item rather than flex box.
 * Do not give flex-box a height, instead let the content set the box's height.  
-
+* If text inside flex box is smaller than half the height of containing flexbox, in android, a letter would flow down to second line even if there is a lot of horizontal space left.
 
 
 
