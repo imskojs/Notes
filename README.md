@@ -42,6 +42,8 @@ TODO:
 state.params shows actual params.
 stateParams shows params that are available in current scope or controller.
 
+Use state.params for complex ui-routing
+
 
 
 
