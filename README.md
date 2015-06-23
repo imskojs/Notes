@@ -35,8 +35,16 @@ TODO:
 [$q promises](#q-promises)  
 [$emit, $broadcast](#emit-broadcast)  
 [why not just use link not controller in a directive?](#why-not-just-use-link-not-controller-in-a-directive)
+[$state.params vs $stateParams](#state.params-vs-stateParams)
 
 --------------------------------------------------------------------
+## state.params vs stateparams
+state.params shows actual params.
+stateParams shows params that are available in current scope or controller.
+
+
+
+
 #CSS
 ##Flexbox
 
