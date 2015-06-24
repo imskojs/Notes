@@ -7,7 +7,6 @@ TODO:
   * Local notification
   * Oauth
   * Kakao Oauth (custom)
-* angular formly   
 * firebase  
   * DB
   * Oauth
