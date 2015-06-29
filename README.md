@@ -21,6 +21,9 @@ TODO:
 * famo.us
 
 
+#Notes  
+Map objects such as google map's returned object from calling navigator.geolocation.getCurrentPosition, is not POJO. hence angular.copy, or angular.extend with mentioned object does not get copied. In order to use properties of the object we need to manually assign each key of interent to the object we want to store into.
+
 #TOC
 ## CSS
 [Flexbox Examples](#flexbox)  
